@@ -12,7 +12,7 @@ HTML_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask Item Manager</title>
+    <title>8-D CHOIR SONGS</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f4f9; color: #333; }
         .container { max-width: 500px; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
@@ -29,11 +29,11 @@ HTML_TEMPLATE = """
 <body>
 
 <div class="container">
-    <h2>My Specific Items</h2>
+    <h2>Add songs here</h2>
 
     <!-- Form to Add Items -->
     <form action="{{ url_for('add_item') }}" method="POST">
-        <input type="text" name="item" placeholder="Enter a specific item..." required autocomplete="off">
+        <input type="text" name="item" placeholder="Enter here" required autocomplete="off">
         <button type="submit" class="btn-add">Add Item</button>
     </form>
 
@@ -48,7 +48,7 @@ HTML_TEMPLATE = """
             </form>
         </li>
         {% else %}
-        <li style="color: #888;">No items in the list yet!</li>
+        <li style="color: #888;">No songs found</li>
         {% endfor %}
     </ul>
 </div>
