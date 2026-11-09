@@ -24,7 +24,7 @@ HTML_TEMPLATE = """
         .btn-remove { background-color: #dc3545; padding: 5px 10px; font-size: 12px; }
         ul { list-style: none; padding: 0; }
         li { display: flex; justify-content: space-between; align-items: center; background: #f8f9fa; padding: 10px; margin-bottom: 8px; border-radius: 4px; border: 1px solid #eee; }
-        .credit { position: fixed; right: 16px; bottom: 12px; font-size: 13px; color: #666; background: rgba(255, 255, 255, 0.85); padding: 6px 10px; border-radius: 6px; }
+        .credit { position: fixed; right: 16px; bottom: 12px; font-size: 13px; color: #354BF0; background: rgba(255, 255, 255, 0.85); padding: 6px 10px; border-radius: 6px; }
     </style>
 </head>
 <body>
